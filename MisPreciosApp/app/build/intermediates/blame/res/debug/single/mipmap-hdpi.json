@@ -1,11 +1,31 @@
 [
     {
+        "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\nuevo.png",
+        "source": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\src\\main\\res\\mipmap-hdpi\\nuevo.png"
+    },
+    {
         "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\icono_codbarra.png",
         "source": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\src\\main\\res\\mipmap-hdpi\\icono_codbarra.png"
     },
     {
+        "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\carrito.png",
+        "source": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\src\\main\\res\\mipmap-hdpi\\carrito.png"
+    },
+    {
+        "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\delete.png",
+        "source": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\src\\main\\res\\mipmap-hdpi\\delete.png"
+    },
+    {
         "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_add_shopping_cart_black_24dp.png",
         "source": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_add_shopping_cart_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\edit.png",
+        "source": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\src\\main\\res\\mipmap-hdpi\\edit.png"
+    },
+    {
+        "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\escaner.png",
+        "source": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\src\\main\\res\\mipmap-hdpi\\escaner.png"
     },
     {
         "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
@@ -20,6 +40,10 @@
         "source": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\src\\main\\res\\mipmap-hdpi\\icon.png"
     },
     {
+        "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\tabla.png",
+        "source": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\src\\main\\res\\mipmap-hdpi\\tabla.png"
+    },
+    {
         "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\icono_precio.png",
         "source": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\src\\main\\res\\mipmap-hdpi\\icono_precio.png"
     },
@@ -32,7 +56,15 @@
         "source": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_content_paste_black_24dp.png"
     },
     {
+        "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\tienda.png",
+        "source": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\src\\main\\res\\mipmap-hdpi\\tienda.png"
+    },
+    {
         "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
         "source": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\dolar.png",
+        "source": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\src\\main\\res\\mipmap-hdpi\\dolar.png"
     }
 ]

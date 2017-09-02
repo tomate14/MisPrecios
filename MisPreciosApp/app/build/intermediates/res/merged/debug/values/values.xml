@@ -119,6 +119,8 @@
     <color name="colorAccent">#ffffff</color>
     <color name="colorPrimary">#44ac37</color>
     <color name="colorPrimaryDark">#2a892f</color>
+    <color name="colorProductoCargado">#01DF74</color>
+    <color name="colorProductoNoEsta">#F78181</color>
     <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
     <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
     <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
@@ -638,7 +640,7 @@
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
-    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="nav_header_height">100dp</dimen>
     <dimen name="nav_header_vertical_spacing">16dp</dimen>
     <dimen name="notification_action_icon_size">32dp</dimen>
     <dimen name="notification_action_text_size">13sp</dimen>
@@ -762,6 +764,10 @@
     <string name="title_activity_menu__lista_carrito">Menu_ListaCarrito</string>
     <string name="title_activity_menu__navigate">Menu Principal</string>
     <string name="title_activity_precios__ver">Precios_Ver</string>
+    <string name="title_activity_tablas_carrito">TablasCarrito</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_home">Home</string>
+    <string name="title_notifications">Notifications</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

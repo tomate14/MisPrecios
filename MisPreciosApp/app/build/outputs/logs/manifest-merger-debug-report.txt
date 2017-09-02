@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\src\main\AndroidManifest.xml:2:1-55:12
+ADDED from C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\src\main\AndroidManifest.xml:2:1-58:12
 	package
 		ADDED from C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\src\main\AndroidManifest.xml:3:5-45
 		INJECTED from C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\src\main\AndroidManifest.xml
@@ -28,7 +28,7 @@ MERGED from [com.google.android.gms:play-services-ads-lite:10.2.4] C:\Users\Maxi
 	android:name
 		ADDED from C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\src\main\AndroidManifest.xml:9:22-76
 application
-ADDED from C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\src\main\AndroidManifest.xml:11:5-53:19
+ADDED from C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\src\main\AndroidManifest.xml:11:5-56:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Maxi\.android\build-cache\2c947ef2e3fbf71cc7b80ded468a7ea12f8e2bd4\output\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-ads-lite:10.2.4] C:\Users\Maxi\.android\build-cache\fc6c4c4b14d9dea1cee03e7742039723afdc909c\output\AndroidManifest.xml:23:5-27:19
 MERGED from [com.google.android.gms:play-services-clearcut:10.2.4] C:\Users\Maxi\.android\build-cache\9ab908c8ec211b58692995bb06eac2b9e90df04c\output\AndroidManifest.xml:18:5-19
@@ -134,9 +134,15 @@ ADDED from C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\src\main\Androi
 	android:name
 		ADDED from C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\src\main\AndroidManifest.xml:51:19-45
 activity#com.example.maxi.mispreciosapp.CarritoVer2
-ADDED from C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\src\main\AndroidManifest.xml:52:9-58
+ADDED from C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\src\main\AndroidManifest.xml:52:9-49
 	android:name
 		ADDED from C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\src\main\AndroidManifest.xml:52:19-46
+activity#com.example.maxi.mispreciosapp.TablasCarrito
+ADDED from C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\src\main\AndroidManifest.xml:53:9-55:78
+	android:label
+		ADDED from C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\src\main\AndroidManifest.xml:55:13-66
+	android:name
+		ADDED from C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\src\main\AndroidManifest.xml:54:13-42
 uses-sdk
 INJECTED from C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Maxi\.android\build-cache\2c947ef2e3fbf71cc7b80ded468a7ea12f8e2bd4\output\AndroidManifest.xml:5:5-7:41

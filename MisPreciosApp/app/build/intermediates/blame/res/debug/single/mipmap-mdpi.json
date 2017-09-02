@@ -8,6 +8,10 @@
         "source": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\src\\main\\res\\mipmap-mdpi\\icono.png"
     },
     {
+        "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\icono_codbarra.png",
+        "source": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\src\\main\\res\\mipmap-mdpi\\icono_codbarra.png"
+    },
+    {
         "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
         "source": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },

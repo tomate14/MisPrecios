@@ -84,7 +84,6 @@ public class ListViewAdapterMenu extends BaseExpandableListAdapter{
         TextView txtNombre;
 
         View inflate = View.inflate(contexto,R.layout.carritomulti_row,null);
-
         int estado = this.productos.get(groupPosition).getEstado();
         int incremento = 0;
         if(isExpanded){
@@ -104,15 +103,15 @@ public class ListViewAdapterMenu extends BaseExpandableListAdapter{
     public View setColorPorEstado(View colorPorEstado, int position, int estado, int incremento) {
         if (estado == 0) {
             this.productos.get(position).setEstado(this.productos.get(position).getEstado() + incremento);
-            colorPorEstado.setBackgroundColor(Color.TRANSPARENT);
+            colorPorEstado.setBackgroundResource(Color.TRANSPARENT);
         } else if (estado == 1) {
             this.productos.get(position).setEstado(this.productos.get(position).getEstado() + incremento);
-            colorPorEstado.setBackgroundColor(Color.GREEN);
+            colorPorEstado.setBackgroundResource(R.color.colorProductoCargado);
         } else if (estado == 2) {
             if(incremento!= 0){
                 this.productos.get(position).setEstado(0);
             }
-            colorPorEstado.setBackgroundColor(Color.RED);
+            colorPorEstado.setBackgroundResource(R.color.colorProductoNoEsta);
         }
         return colorPorEstado;
     }

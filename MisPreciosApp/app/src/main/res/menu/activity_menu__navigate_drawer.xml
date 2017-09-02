@@ -4,17 +4,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <group
-        android:checkableBehavior="none"
-        android:enabled="true">
+        android:checkableBehavior="none">
         <item android:title="Productos">
             <menu>
                 <item
                     android:id="@+id/nav_scan"
-                    android:icon="?android:attr/actionModeFindDrawable"
+                    android:icon="@mipmap/escaner"
                     android:title="Scanear Producto" />
                 <item
                     android:id="@+id/nav_addProduMan"
-                    android:icon="@android:drawable/ic_input_add"
+                    android:icon="@mipmap/nuevo"
                     android:title="Agregar Producto Manual" />
             </menu>
         </item>
@@ -22,16 +21,16 @@
             <menu>
                 <item
                     android:id="@+id/nav_listaArmar"
-                    android:icon="@mipmap/ic_add_shopping_cart_black_24dp"
+                    android:icon="@mipmap/carrito"
                     android:title="Armar Lista" />
-                <item
+                <!--item
                     android:id="@+id/nav_listaVer"
                     android:icon="@mipmap/ic_content_paste_black_24dp"
-                    android:title="Ver Lista" />
+                    android:title="Ver Lista" /-->
                 <item
-                    android:id="@+id/nav_listaVer2"
-                    android:icon="@mipmap/ic_content_paste_black_24dp"
-                    android:title="Ver Lista V2" />
+                    android:id="@+id/nav_listaVer3"
+                    android:icon="@mipmap/tabla"
+                    android:title="Ver Lista Tab" />
 
             </menu>
         </item>
@@ -39,15 +38,15 @@
             <menu>
                 <item
                     android:id="@+id/nav_addSuper"
-                    android:icon="@android:drawable/ic_input_add"
+                    android:icon="@mipmap/tienda"
                     android:title="Agregar Supermercado" />
                 <item
                     android:id="@+id/nav_modiSuper"
-                    android:icon="@android:drawable/ic_menu_edit"
+                    android:icon="@mipmap/edit"
                     android:title="Modificar Supermercado" />
                 <item
                     android:id="@+id/nav_deleSuper"
-                    android:icon="@android:drawable/ic_menu_delete"
+                    android:icon="@mipmap/delete"
                     android:title="Borrar Supermercado" />
 
             </menu>

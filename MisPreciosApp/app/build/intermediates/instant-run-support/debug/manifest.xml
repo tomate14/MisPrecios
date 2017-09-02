@@ -57,6 +57,9 @@
         <activity android:name="com.example.maxi.mispreciosapp.CarritoVer" />
         <activity android:name="com.example.maxi.mispreciosapp.CarritoVer2" />
         <activity
+            android:name="com.example.maxi.mispreciosapp.TablasCarrito"
+            android:label="@string/title_activity_tablas_carrito" />
+        <activity
             android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
             android:theme="@style/Theme.IAPTheme" />
         <activity

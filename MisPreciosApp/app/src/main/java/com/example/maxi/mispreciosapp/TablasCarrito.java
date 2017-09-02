@@ -1,33 +1,63 @@
 package com.example.maxi.mispreciosapp;
 
+import android.content.Context;
 import android.database.Cursor;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.MenuItem;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ExpandableListView;
-import android.widget.Toast;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 
 import Clases.ItemInfoCarrito;
 import Clases.ProductoCarrito;
+import Clases.Supermercado;
 import Mostrar_Productos.ListViewAdapterMenu;
 
-public class CarritoVer2 extends AppCompatActivity {
+public class TablasCarrito extends AppCompatActivity {
 
+    //private TextView mTextMessage;
     private ExpandableListView exv;
     private ListViewAdapterMenu listView;
+    private Context context;
+
+    private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
+            = new BottomNavigationView.OnNavigationItemSelectedListener() {
+
+        @Override
+        public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+            switch (item.getItemId()) {
+                case R.id.navigation_home:
+                    updateListViewProducto();
+                    return true;
+                case R.id.navigation_dashboard:
+                    ArrayList<ProductoCarrito> listaProductos = new ArrayList<ProductoCarrito>();
+                    HashMap<Integer,ArrayList<ItemInfoCarrito>> datos = new HashMap<Integer,ArrayList<ItemInfoCarrito>>();
+                    listView = new ListViewAdapterMenu(context,listaProductos,datos);
+                    exv.setAdapter(listView);
+                    return true;
+
+            }
+            return false;
+        }
+
+    };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_carrito_ver2);
+        setContentView(R.layout.activity_tablas_carrito);
         setTitle("LISTA DE COMPRAS");
-        
-        this.exv = (ExpandableListView) findViewById(R.id.listaCarritoExp);
-        updateListView();
+        this.context = this;
+
+        this.exv = (ExpandableListView) findViewById(R.id.listCarritoTab);
+        updateListViewProducto();
 
 
         this.exv.setOnGroupExpandListener(new ExpandableListView.OnGroupExpandListener(){
@@ -45,11 +75,13 @@ public class CarritoVer2 extends AppCompatActivity {
                 listView.notifyDataSetChanged();
             }
         });
-
-
+       // mTextMessage = (TextView) findViewById(R.id.message);
+        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
+        navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+        navigation.setItemIconTintList(null);
     }
 
-    private void updateListView(){
+    private void updateListViewProducto(){
         // Log.d("UPDATE","updateListView");
         Cursor fila = Menu_Navigate.dataBase.getInfoCarritoListView();
         ArrayList<ProductoCarrito> listaProductos = new ArrayList<ProductoCarrito>();
@@ -66,7 +98,7 @@ public class CarritoVer2 extends AppCompatActivity {
                 ArrayList<ItemInfoCarrito> subLista = new ArrayList<>();
                 if(columna.getCount()>0) {
                     while (columna.moveToNext()) {
-                              nombre = columna.getString(0);
+                        nombre = columna.getString(0);
                         float importe = columna.getFloat(1);
                         ItemInfoCarrito item = new ItemInfoCarrito(nombre, importe, listaProductos.size()-1);
                         subLista.add(item);
