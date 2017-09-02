@@ -10,7 +10,7 @@ import java.io.Serializable;
  */
 
 public class Producto implements Serializable {
-    //Test
+    
     private int id;
     private String codbarra;
     private String nombre;
