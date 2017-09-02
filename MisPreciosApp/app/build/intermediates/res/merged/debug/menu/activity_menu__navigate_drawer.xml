@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="none"
+        android:enabled="true">
+        <item android:title="Productos">
+            <menu>
+                <item
+                    android:id="@+id/nav_scan"
+                    android:icon="?android:attr/actionModeFindDrawable"
+                    android:title="Scanear Producto" />
+                <item
+                    android:id="@+id/nav_addProduMan"
+                    android:icon="@android:drawable/ic_input_add"
+                    android:title="Agregar Producto Manual" />
+            </menu>
+        </item>
+        <item android:title="Lista de Compras">
+            <menu>
+                <item
+                    android:id="@+id/nav_listaArmar"
+                    android:icon="@mipmap/ic_add_shopping_cart_black_24dp"
+                    android:title="Armar Lista" />
+                <item
+                    android:id="@+id/nav_listaVer"
+                    android:icon="@mipmap/ic_content_paste_black_24dp"
+                    android:title="Ver Lista" />
+                <item
+                    android:id="@+id/nav_listaVer2"
+                    android:icon="@mipmap/ic_content_paste_black_24dp"
+                    android:title="Ver Lista V2" />
+
+            </menu>
+        </item>
+        <item android:title="Supermercados">
+            <menu>
+                <item
+                    android:id="@+id/nav_addSuper"
+                    android:icon="@android:drawable/ic_input_add"
+                    android:title="Agregar Supermercado" />
+                <item
+                    android:id="@+id/nav_modiSuper"
+                    android:icon="@android:drawable/ic_menu_edit"
+                    android:title="Modificar Supermercado" />
+                <item
+                    android:id="@+id/nav_deleSuper"
+                    android:icon="@android:drawable/ic_menu_delete"
+                    android:title="Borrar Supermercado" />
+
+            </menu>
+        </item>
+
+
+    </group>
+
+</menu>

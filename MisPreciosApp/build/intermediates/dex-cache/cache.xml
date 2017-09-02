@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Maxi\.android\build-cache\9f0440293e3ce20e23caa2c1c27a32c3e4c71654\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd1d0d84da2cff18f741c63a9c3af7d9aa89fdd6">
+        <dex dex="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4531f7670e8ce866b398cab6227d7c3722de6055\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Maxi\.android\build-cache\97c49adfc7a84e5fe3775120d7cba911c0e8fd4a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9ed08fab37c3a572da1d9ed2bf2e36c8d3e2bc48">
+        <dex dex="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fa37eac4edb44c676afe9f121015094d0df7328d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Maxi\.android\build-cache\c5b479f106bdd2db35b7b44eec25f1dedcca18ee\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="597d0d34e15e713c486e8f4ccf739f0c7d05bde4">
+        <dex dex="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_45c85045d24c20ea6715df2d16c8ed8f009853dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Maxi\.android\build-cache\9ab908c8ec211b58692995bb06eac2b9e90df04c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0e23941db151e67886844de6586e180bb2b860ad">
+        <dex dex="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ab5f319ba7fb4095b38fea881b23535ac50d3a26\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ce87abf4434f7b82f9aa283decc8014ad0177b63\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="badf5f801c74fae543219c8c4fc69df1661a27a3">
+        <dex dex="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_3d30096f0fc994809eeefecd2c13097c4631b27f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Maxi\.android\build-cache\b860a5a63da1448bdcb2c8d5090eb1e7fdb56e74\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="657abe17c5ba58f5d24803ba303c6005b180897a">
+        <dex dex="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b51863208d81143735378a9696c675c4e03c41fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Maxi\.android\build-cache\5e3f1d710705a50d26f42a87f3ab32146e6bfa6c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5803db663655ef5cb38c6bcb17ba326fdb9edfbd">
+        <dex dex="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5a8be602dc77522eaa58d58e873db4b18f89d06d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Maxi\.android\build-cache\fc6c4c4b14d9dea1cee03e7742039723afdc909c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fe159787dd4c4bc9ed6a9d4f7430e9af1f3516c8">
+        <dex dex="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4b9b37a88121fa5da35d3eb0b615bbdefa2e7e26\classes.dex" />
+    </item>
+
+</items>

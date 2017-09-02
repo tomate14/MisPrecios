@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\icono.png",
+        "source": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\src\\main\\res\\mipmap-mdpi\\icono.png"
+    },
+    {
+        "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\icono_precio.png",
+        "source": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\src\\main\\res\\mipmap-mdpi\\icono_precio.png"
+    }
+]
