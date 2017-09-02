@@ -1,0 +1,7 @@
+#Sat Sep 02 01:41:57 ART 2017
+base.0=C\:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ce87abf4434f7b82f9aa283decc8014ad0177b63
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_3d30096f0fc994809eeefecd2c13097c4631b27f\\classes.dex
+base.1=C\:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_3d30096f0fc994809eeefecd2c13097c4631b27f
+file.0=C\:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ce87abf4434f7b82f9aa283decc8014ad0177b63\\classes.dex

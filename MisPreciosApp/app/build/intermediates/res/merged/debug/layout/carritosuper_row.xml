@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/common_google_signin_btn_text_light_disabled"
+    android:orientation="horizontal"
+    android:padding="5dip">
+
+    <!--  listrow  -->
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip"
+        android:padding="3dip"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/list_row_image"
+            android:layout_width="37dp"
+            android:layout_height="39dp"
+            app:srcCompat="@mipmap/icono_precio" />
+
+    </LinearLayout>
+
+    <!-- titulo de la categoria -->
+    <TextView
+        android:id="@+id/txtCarritoSuper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:layout_weight="1"
+        android:text="Producto no cargado"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+
+</RelativeLayout>
