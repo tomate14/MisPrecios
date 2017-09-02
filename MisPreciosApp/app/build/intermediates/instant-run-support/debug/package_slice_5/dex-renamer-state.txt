@@ -1,4 +1,4 @@
-#Fri Sep 01 23:40:29 ART 2017
+#Sat Sep 02 10:57:48 ART 2017
 base.0=C\:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_5
 renamed.0=classes.dex
 file.0=C\:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_5\\classes.dex

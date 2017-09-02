@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ExpandableListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -23,9 +24,28 @@ public class CarritoVer2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_carrito_ver2);
-
+        setTitle("LISTA DE COMPRAS");
+        
         this.exv = (ExpandableListView) findViewById(R.id.listaCarritoExp);
         updateListView();
+
+
+        this.exv.setOnGroupExpandListener(new ExpandableListView.OnGroupExpandListener(){
+            @Override
+            public void onGroupExpand(int groupPosition) {
+                for(int i=0;i<listView.getGroupCount();i++){
+                    if(i!=groupPosition){
+                        exv.collapseGroup(i);
+                    }
+                }
+                int index = exv.getFlatListPosition(ExpandableListView.getPackedPositionForGroup(groupPosition));
+                Log.d("CLICKEABLE","ITEM CLICKEADO ["+String.valueOf(index)+"]");
+                listView.setPosicion(index);
+                exv.setItemChecked(index, true);
+                listView.notifyDataSetChanged();
+            }
+        });
+
 
     }
 

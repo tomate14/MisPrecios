@@ -6,25 +6,25 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1504327622387"
+    timestamp="1504365833701"
     token="1023880226041836748"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="238" />
+        duration="353" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="5" />
+        duration="12" />
     <task
         name="verifier"
         duration="3" />
 
     <artifact
-        location="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        location="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\outputs\apk\app-debug.apk"
@@ -32,26 +32,17 @@
 
     <build
         build-mode="FULL"
-        timestamp="1504321948925"
+        timestamp="1504362767203"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
         <artifact
             location="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
+        <artifact
+            location="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
         <artifact
             location="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
@@ -65,7 +56,16 @@
             location="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
+            location="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
@@ -73,24 +73,15 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1504325426905"
+        timestamp="1504365416806"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1504327470939"
+        timestamp="1504365779357"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\outputs\apk\app-debug.apk"
@@ -98,10 +89,10 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1504327622387"
+        timestamp="1504365833701"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Maxi\AndroidStudioProjects\MisPreciosApp\app\build\outputs\apk\app-debug.apk"
