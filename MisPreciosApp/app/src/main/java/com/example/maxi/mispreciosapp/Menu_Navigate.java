@@ -65,6 +65,7 @@ public class Menu_Navigate extends AppCompatActivity
         toggle.syncState();
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        navigationView.setItemIconTintList(null);
         this.txtBienvenida = (TextView) findViewById(R.id.textBienvenida);
         this.scanButton    = (Button)   findViewById(R.id.btnScan);
         this.scanButton.setOnClickListener(new View.OnClickListener() {
@@ -146,13 +147,14 @@ public class Menu_Navigate extends AppCompatActivity
         }else if (id == R.id.nav_listaArmar) {
             Intent addCarrito = new Intent(this,ScanCode.class);
             startActivity(addCarrito);
-        }else if (id == R.id.nav_listaVer) {
-            Intent verCarrito = new Intent(this,CarritoVer.class);
+        }else if (id == R.id.nav_listaVer3) {
+            Intent verCarrito = new Intent(this,TablasCarrito.class);
             startActivity(verCarrito);
-        }else if (id == R.id.nav_listaVer2) {
-            Intent verCarrito = new Intent(this,CarritoVer2.class);
-            startActivity(verCarrito);
-        }
+        }//else if (id == R.id.nav_listaVer) {
+          //  Intent verCarrito = new Intent(this,CarritoVer.class);
+          //  startActivity(verCarrito);
+        //}
+
 
 
 

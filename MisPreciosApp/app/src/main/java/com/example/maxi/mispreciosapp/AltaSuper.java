@@ -25,9 +25,9 @@ public class AltaSuper extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alta_super);
+        setTitle("AGREGAR SUPERMERCADO");
         this.actividad = this;
         this.selected = false;
-        Log.d("ACTIVIDAD","AltaSuper");
         this.btnAgregar = (Button) findViewById(R.id.btnAgregar);
         this.txtNombre  = (EditText)findViewById(R.id.txtNombre);
         this.spinnerProv = (Spinner) findViewById(R.id.spinnerProvi);

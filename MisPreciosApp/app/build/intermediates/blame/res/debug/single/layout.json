@@ -16,16 +16,12 @@
         "source": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\src\\main\\res\\layout\\content_menu__navigate.xml"
     },
     {
-        "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
-        "source": "C:\\Users\\Maxi\\.android\\build-cache\\46f274d263303e02f15e944046b5d3b1c0e09d63\\output\\res\\layout\\notification_template_media_custom.xml"
-    },
-    {
         "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
         "source": "C:\\Users\\Maxi\\.android\\build-cache\\cd35c80fc8f56b75e3c724eea3f50c323eb02c40\\output\\res\\layout\\design_navigation_item.xml"
     },
     {
-        "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_carrito_ver2.xml",
-        "source": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\src\\main\\res\\layout\\activity_carrito_ver2.xml"
+        "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\Maxi\\.android\\build-cache\\46f274d263303e02f15e944046b5d3b1c0e09d63\\output\\res\\layout\\notification_template_media_custom.xml"
     },
     {
         "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_menu__navigate.xml",
@@ -202,6 +198,10 @@
     {
         "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
         "source": "C:\\Users\\Maxi\\.android\\build-cache\\cd35c80fc8f56b75e3c724eea3f50c323eb02c40\\output\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tablas_carrito.xml",
+        "source": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\src\\main\\res\\layout\\activity_tablas_carrito.xml"
     },
     {
         "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",

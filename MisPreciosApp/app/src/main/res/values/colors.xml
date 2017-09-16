@@ -3,4 +3,7 @@
     <color name="colorPrimary">#44ac37</color>
     <color name="colorPrimaryDark">#2a892f</color>
     <color name="colorAccent">#ffffff</color>
+    <color name="colorProductoNoEsta">#F78181</color>
+    <color name="colorProductoCargado">#01DF74</color>
+
 </resources>

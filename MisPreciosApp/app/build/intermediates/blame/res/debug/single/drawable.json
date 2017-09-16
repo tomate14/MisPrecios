@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "C:\\Users\\Maxi\\.android\\build-cache\\46f274d263303e02f15e944046b5d3b1c0e09d63\\output\\res\\drawable\\notification_bg.xml"
-    },
-    {
         "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
         "source": "C:\\Users\\Maxi\\.android\\build-cache\\9f0440293e3ce20e23caa2c1c27a32c3e4c71654\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Maxi\\.android\\build-cache\\46f274d263303e02f15e944046b5d3b1c0e09d63\\output\\res\\drawable\\notification_bg.xml"
     },
     {
         "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
@@ -16,12 +16,12 @@
         "source": "C:\\Users\\Maxi\\.android\\build-cache\\46f274d263303e02f15e944046b5d3b1c0e09d63\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "C:\\Users\\Maxi\\.android\\build-cache\\46f274d263303e02f15e944046b5d3b1c0e09d63\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
         "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_normal.xml",
         "source": "C:\\Users\\Maxi\\.android\\build-cache\\9f0440293e3ce20e23caa2c1c27a32c3e4c71654\\output\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\Maxi\\.android\\build-cache\\46f274d263303e02f15e944046b5d3b1c0e09d63\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
         "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
@@ -44,12 +44,16 @@
         "source": "C:\\Users\\Maxi\\.android\\build-cache\\46f274d263303e02f15e944046b5d3b1c0e09d63\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
+        "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\Maxi\\.android\\build-cache\\cd35c80fc8f56b75e3c724eea3f50c323eb02c40\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
         "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
         "source": "C:\\Users\\Maxi\\.android\\build-cache\\46f274d263303e02f15e944046b5d3b1c0e09d63\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "C:\\Users\\Maxi\\.android\\build-cache\\cd35c80fc8f56b75e3c724eea3f50c323eb02c40\\output\\res\\drawable\\design_fab_background.xml"
+        "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_notifications_black_24dp.xml",
+        "source": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\src\\main\\res\\drawable\\ic_notifications_black_24dp.xml"
     },
     {
         "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\boton_redondo.xml",
@@ -116,6 +120,10 @@
         "source": "C:\\Users\\Maxi\\.android\\build-cache\\46f274d263303e02f15e944046b5d3b1c0e09d63\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
+        "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_dashboard_black_24dp.xml",
+        "source": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\src\\main\\res\\drawable\\ic_dashboard_black_24dp.xml"
+    },
+    {
         "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
         "source": "C:\\Users\\Maxi\\.android\\build-cache\\46f274d263303e02f15e944046b5d3b1c0e09d63\\output\\res\\drawable\\abc_btn_check_material.xml"
     },
@@ -126,6 +134,10 @@
     {
         "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_manage.xml",
         "source": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\src\\main\\res\\drawable\\ic_menu_manage.xml"
+    },
+    {
+        "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_home_black_24dp.xml",
+        "source": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\src\\main\\res\\drawable\\ic_home_black_24dp.xml"
     },
     {
         "merged": "C:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_normal.xml",

@@ -1,4 +1,4 @@
-#Sat Sep 02 01:41:57 ART 2017
+#Sat Sep 02 15:46:29 ART 2017
 base.0=C\:\\Users\\Maxi\\AndroidStudioProjects\\MisPreciosApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ce87abf4434f7b82f9aa283decc8014ad0177b63
 renamed.1=classes2.dex
 renamed.0=classes.dex

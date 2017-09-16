@@ -84,43 +84,36 @@ public class ListViewAdapterMenu extends BaseExpandableListAdapter{
         TextView txtNombre;
 
         View inflate = View.inflate(contexto,R.layout.carritomulti_row,null);
-       // if (convertView == null) {
-       //     convertView = LayoutInflater.from(this.contexto).inflate(R.layout.carritomulti_row, parent, false);
-       // }
-        boolean expandido = false;
-        if(isExpanded){
-            Log.d("EXPANDE","SE EXPANDIO["+String.valueOf(groupPosition)+"]");
-            int est = this.productos.get(groupPosition).getEstado();
-            this.posicion = groupPosition;
-            expandido = true;
-        }
         int estado = this.productos.get(groupPosition).getEstado();
-        if((this.posicion == -1)||(this.posicion==groupPosition)) {
-            Log.d("SETCOLOR","estado=["+String.valueOf(estado)+"] groupPosition=["+String.valueOf(groupPosition)+"]");
-            if((this.posicion == -1)||expandido) {
-               // setColorPorEstado(inflate, groupPosition, estado);
-            }
+        int incremento = 0;
+        if(isExpanded){
+            incremento = 1;
+            inflate = setColorPorEstado(inflate, groupPosition, estado, incremento);
+        }else{
+            inflate = setColorPorEstado(inflate, groupPosition, estado, incremento);
         }
 
         txtTitle = (TextView) inflate.findViewById(R.id.listcarritomulti_title);
         txtNombre = (TextView) inflate.findViewById(R.id.listcarritomulti_nombre);
         txtTitle.setText(productos.get(groupPosition).getCodBarra());
         txtNombre.setText(productos.get(groupPosition).getNombre());
-
         return inflate;
     }
 
-    public void setColorPorEstado(View colorPorEstado, int position, int estado) {
+    public View setColorPorEstado(View colorPorEstado, int position, int estado, int incremento) {
         if (estado == 0) {
-            this.productos.get(position).setEstado(this.productos.get(position).getEstado() + 1);
-            colorPorEstado.setBackgroundColor(Color.TRANSPARENT);
+            this.productos.get(position).setEstado(this.productos.get(position).getEstado() + incremento);
+            colorPorEstado.setBackgroundResource(Color.TRANSPARENT);
         } else if (estado == 1) {
-            this.productos.get(position).setEstado(this.productos.get(position).getEstado() + 1);
-            colorPorEstado.setBackgroundColor(Color.GREEN);
+            this.productos.get(position).setEstado(this.productos.get(position).getEstado() + incremento);
+            colorPorEstado.setBackgroundResource(R.color.colorProductoCargado);
         } else if (estado == 2) {
-            this.productos.get(position).setEstado(0);
-            colorPorEstado.setBackgroundColor(Color.RED);
+            if(incremento!= 0){
+                this.productos.get(position).setEstado(0);
+            }
+            colorPorEstado.setBackgroundResource(R.color.colorProductoNoEsta);
         }
+        return colorPorEstado;
     }
 
     @Override
@@ -142,5 +135,13 @@ public class ListViewAdapterMenu extends BaseExpandableListAdapter{
     public boolean isChildSelectable(int groupPosition, int childPosition) {
         //Se puede seleccionar a los hijos
         return false;
+    }
+
+    public int getPosicion() {
+        return posicion;
+    }
+
+    public void setPosicion(int posicion) {
+        this.posicion = posicion;
     }
 }

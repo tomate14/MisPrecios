@@ -67,13 +67,13 @@ public class ListViewAdapterCarrito extends ListViewAdapter {
     public void setColorPorEstado(View colorPorEstado, int position, int estado) {
         if (estado == 0) {
             this.productos.get(position).setEstado(this.productos.get(position).getEstado() + 1);
-            colorPorEstado.setBackgroundColor(Color.TRANSPARENT);
+            colorPorEstado.setBackgroundResource(Color.TRANSPARENT);
         } else if (estado == 1) {
             this.productos.get(position).setEstado(this.productos.get(position).getEstado() + 1);
-            colorPorEstado.setBackgroundColor(Color.GREEN);
+            colorPorEstado.setBackgroundResource(R.color.colorProductoCargado);
         } else if (estado == 2) {
             this.productos.get(position).setEstado(0);
-            colorPorEstado.setBackgroundColor(Color.RED);
+            colorPorEstado.setBackgroundResource(R.color.colorProductoNoEsta);
         }
     }
     public ArrayList<ProductoCarrito> getProductos(){

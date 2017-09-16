@@ -251,16 +251,25 @@ public class BaseDeDatos {
     }
 
 
-    public void setEstados(String codBarra, ContentValues regCarrito) {
-        String where = "     CODBARRA = '"+codBarra+"'";
-        this.SQLite.update("carrito",regCarrito,where,null);
+    public Cursor getInfoCarritoSubListView(String codBarra){
+        //Levanto datos para cargar la sublista por productos
+        String query = " SELECT S.nombre, V.importe " +
+                " FROM CARRITO AS C LEFT JOIN VENDIDO AS V ON (C.codBarra = V.idProducto)" +
+                " LEFT JOIN SUPERMERCADOS AS S ON (V.idSupermercado = S.id)" +
+                " WHERE C.codBarra = '"+codBarra+"' " +
+                " ORDER BY V.importe ASC ";
+        return (this.SQLite.rawQuery(query,null));
     }
 
-    public Cursor getInfoCarritoSubListView(String codBarra){
-        String query = " SELECT S.nombre, V.importe " +
-                       " FROM CARRITO AS C LEFT JOIN VENDIDO AS V ON (C.codBarra = V.idProducto)" +
-                                         " LEFT JOIN SUPERMERCADOS AS S ON (V.idSupermercado = S.id)" +
-                " WHERE C.codBarra = '"+codBarra+"'";
+    public Cursor getInfoCarritoListViewSupermercado() {
+        String query = " SELECT  " +
+                " FROM SUPERMERCADOS AS S  ";
         return (this.SQLite.rawQuery(query,null));
+    }
+
+    public void setEstados(String codBarra, ContentValues regCarrito) {
+        //Set Estado del carrito cuando salgo de la actividad
+        String where = "     CODBARRA = '"+codBarra+"'";
+        this.SQLite.update("carrito",regCarrito,where,null);
     }
 }

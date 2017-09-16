@@ -49,7 +49,10 @@
             android:label="@string/title_activity_menu__lista_carrito"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".CarritoVer" />
-        <activity android:name=".CarritoVer2"></activity>
+        <activity android:name=".CarritoVer2" />
+        <activity
+            android:name=".TablasCarrito"
+            android:label="@string/title_activity_tablas_carrito"></activity>
     </application>
 
 </manifest>
